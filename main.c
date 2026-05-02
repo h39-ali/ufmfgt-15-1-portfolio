@@ -16,10 +16,10 @@ int main() {
     reverse = (units * 10) + tens;
     printf("%d\n", reverse);
 
-double mph, kmh;
-printf("Enter your speed in mph\n");
-scanf("%lf", &mph);
-kmh = mph * 1.60934;
-printf("This is your speed in kmh: %lf\n", kmh);
+    double mph, kmh;
+    printf("Enter your speed in mph\n");
+    scanf("%lf", &mph);
+    kmh = mph * 1.60934;
+    printf("This is your speed in kmh: %lf\n", kmh);
     return 0;
 }
